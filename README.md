@@ -6,14 +6,14 @@ jQuery Chooser plugin
 Example:
 js code:
 ==========
-$("#added11").JqSelector({posterEl:'#fromtest11'});
-				
-$("#btn11").click(function(){
-	var value = $("#input11").val();
-	if(value.length > 0){
-		$("#added11").JqSelector({op:"add", item:value, posterEl:'#fromtest11'});
-	}
-});
+		$("#added11").JqSelector({posterEl:'#fromtest11'});
+						
+		$("#btn11").click(function(){
+			var value = $("#input11").val();
+			if(value.length > 0){
+				$("#added11").JqSelector({op:"add", item:value, posterEl:'#fromtest11'});
+			}
+		});
 
 html code
 ==========
